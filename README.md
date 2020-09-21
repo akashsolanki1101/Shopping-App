@@ -27,6 +27,14 @@
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/>
+#### Checkout Page:
+<img src="https://i.ibb.co/PCPmK9x/Screenshot-20200921-163024-Expo.jpg" 
+     alt="Future Forecast Screen" 
+     width="200px" 
+     style="float:left"/><img src="https://i.ibb.co/yfqNXrL/Screenshot-20200921-163211-Expo.jpg" 
+     alt="Future Forecast Screen" 
+     width="200px" 
+     style="float:left"/>
 #### Address Page:
 <img src="https://i.ibb.co/QYNDBzJ/Screenshot-20200921-163029-Expo.jpg" 
      alt="Future Forecast Screen" 
@@ -39,18 +47,6 @@
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/><img src="https://i.ibb.co/r3bv8tp/Screenshot-20200921-163145-Expo.jpg" 
-     alt="Future Forecast Screen" 
-     width="200px" 
-     style="float:left"/>
-#### Checkout Page:
-<img src="https://i.ibb.co/Bcdj616/Screenshot-20200921-163151-Expo.jpg" 
-     alt="Future Forecast Screen" 
-     width="200px" 
-     style="float:left"/>
-     <img src="https://i.ibb.co/PCPmK9x/Screenshot-20200921-163024-Expo.jpg" 
-     alt="Future Forecast Screen" 
-     width="200px" 
-     style="float:left"/><img src="https://i.ibb.co/yfqNXrL/Screenshot-20200921-163211-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/>
