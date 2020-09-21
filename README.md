@@ -60,3 +60,12 @@
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/>
+     
+#### Building materials of the app:     
+     1. React Native.
+     2. Redux.
+     
+#### To Do List:
+     1. Connect with database.
+     2. Authenticate user.
+     3. Setup for sellers.
