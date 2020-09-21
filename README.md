@@ -3,7 +3,7 @@
 
 ### Screenshots
 
-#### Items List and Product Details Page
+#### Products List and Product Details Page:
 <img src="https://i.ibb.co/3WxB9ff/Screenshot-20200921-162921-Expo.jpg" 
      alt="Future Forecast Screen"  
      style="float: left" 
@@ -13,7 +13,14 @@
      style="float:left"/><img src="https://i.ibb.co/vhn9SSc/Screenshot-20200921-162935-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
-     style="float:left"/><img src="https://i.ibb.co/wsmcWhF/Screenshot-20200921-162941-Expo.jpg" 
+     style="float:left"/>
+#### Wish List:
+#### Cart Items: 
+#### Address Page:
+#### Checkout Page:
+#### My Orders:
+#### Confirmation Message:
+     <img src="https://i.ibb.co/wsmcWhF/Screenshot-20200921-162941-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/><img src="https://i.ibb.co/mFD6sqS/Screenshot-20200921-162959-Expo.jpg" 
