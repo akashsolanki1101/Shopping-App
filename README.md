@@ -1,7 +1,7 @@
 # Shopping-App :handbag:
 ### A react native app, UI closely related to flipkart.
 
-###Screenshots
+### Screenshots
 <img src="https://i.ibb.co/3WxB9ff/Screenshot-20200921-162921-Expo.jpg" 
      alt="Future Forecast Screen"  
      style="float: left" 
