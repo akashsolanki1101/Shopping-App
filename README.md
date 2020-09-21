@@ -20,7 +20,7 @@
 #### Checkout Page:
 #### My Orders:
 #### Confirmation Message
-     <img src="https://i.ibb.co/wsmcWhF/Screenshot-20200921-162941-Expo.jpg" 
+<img src="https://i.ibb.co/wsmcWhF/Screenshot-20200921-162941-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/><img src="https://i.ibb.co/mFD6sqS/Screenshot-20200921-162959-Expo.jpg" 
