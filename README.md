@@ -47,18 +47,20 @@
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/>
-#### My Orders:
-#### Confirmation Message:
-<img src="https://i.ibb.co/PCPmK9x/Screenshot-20200921-163024-Expo.jpg" 
+     <img src="https://i.ibb.co/PCPmK9x/Screenshot-20200921-163024-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/><img src="https://i.ibb.co/yfqNXrL/Screenshot-20200921-163211-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
-     style="float:left"/><img src="https://i.ibb.co/prD9MHP/Screenshot-20200921-163223-Expo.jpg" 
+     style="float:left"/>
+#### My Orders:
+<img src="https://i.ibb.co/sqCM9z5/Screenshot-20200921-164044-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
-     style="float:left"/><img src="https://i.ibb.co/sqCM9z5/Screenshot-20200921-164044-Expo.jpg" 
+     style="float:left"/>
+#### Confirmation Message:
+<img src="https://i.ibb.co/prD9MHP/Screenshot-20200921-163223-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/>
