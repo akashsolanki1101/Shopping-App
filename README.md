@@ -23,14 +23,15 @@
      width="200px" 
      style="float:left"/>
 #### Cart Items: 
+<img src="https://i.ibb.co/PhgMpxy/Screenshot-20200921-163011-Expo.jpg" 
+     alt="Future Forecast Screen" 
+     width="200px" 
+     style="float:left"/>
 #### Address Page:
 #### Checkout Page:
 #### My Orders:
 #### Confirmation Message:
-<img src="https://i.ibb.co/PhgMpxy/Screenshot-20200921-163011-Expo.jpg" 
-     alt="Future Forecast Screen" 
-     width="200px" 
-     style="float:left"/><img src="https://i.ibb.co/PCPmK9x/Screenshot-20200921-163024-Expo.jpg" 
+<img src="https://i.ibb.co/PCPmK9x/Screenshot-20200921-163024-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/><img src="https://i.ibb.co/QYNDBzJ/Screenshot-20200921-163029-Expo.jpg" 
