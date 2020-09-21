@@ -1,9 +1,9 @@
 # Shopping-App :handbag:
 ### A react native app, UI closely related to flipkart.
 
-### Screenshots
+## Some Insights of the app-
 
-#### Products List and Product Details Page:
+### Products List and Product Details Page:
 <img src="https://i.ibb.co/3WxB9ff/Screenshot-20200921-162921-Expo.jpg" 
      alt="Future Forecast Screen"  
      style="float: left" 
@@ -14,7 +14,7 @@
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/>
-#### Wish List:
+### Wish List:
 <img src="https://i.ibb.co/wsmcWhF/Screenshot-20200921-162941-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
@@ -22,12 +22,12 @@
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/>
-#### Cart Items: 
+### Cart Items: 
 <img src="https://i.ibb.co/PhgMpxy/Screenshot-20200921-163011-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/>
-#### Checkout Page:
+### Checkout Page:
 <img src="https://i.ibb.co/PCPmK9x/Screenshot-20200921-163024-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
@@ -35,7 +35,7 @@
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/>
-#### Address Page:
+### Address Page:
 <img src="https://i.ibb.co/QYNDBzJ/Screenshot-20200921-163029-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
@@ -50,12 +50,12 @@
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/>
-#### Confirmation Message:
+### Confirmation Message:
 <img src="https://i.ibb.co/prD9MHP/Screenshot-20200921-163223-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/>
-#### My Orders:
+### My Orders:
 <img src="https://i.ibb.co/sqCM9z5/Screenshot-20200921-164044-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
