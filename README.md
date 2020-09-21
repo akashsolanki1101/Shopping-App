@@ -15,18 +15,19 @@
      width="200px" 
      style="float:left"/>
 #### Wish List:
-#### Cart Items: 
-#### Address Page:
-#### Checkout Page:
-#### My Orders:
-#### Confirmation Message
 <img src="https://i.ibb.co/wsmcWhF/Screenshot-20200921-162941-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/><img src="https://i.ibb.co/mFD6sqS/Screenshot-20200921-162959-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
-     style="float:left"/><img src="https://i.ibb.co/PhgMpxy/Screenshot-20200921-163011-Expo.jpg" 
+     style="float:left"/>
+#### Cart Items: 
+#### Address Page:
+#### Checkout Page:
+#### My Orders:
+#### Confirmation Message:
+<img src="https://i.ibb.co/PhgMpxy/Screenshot-20200921-163011-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/><img src="https://i.ibb.co/PCPmK9x/Screenshot-20200921-163024-Expo.jpg" 
