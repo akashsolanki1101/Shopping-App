@@ -28,6 +28,19 @@
      width="200px" 
      style="float:left"/>
 #### Address Page:
+<img src="https://i.ibb.co/DfL7h8r/Screenshot-20200921-163037-Expo.jpg" 
+     alt="Future Forecast Screen" 
+     width="200px" 
+     style="float:left"/><img src="https://i.ibb.co/JjPwyTD/Screenshot-20200921-163107-Expo.jpg" 
+     alt="Future Forecast Screen" 
+     width="200px" 
+     style="float:left"/><img src="https://i.ibb.co/r3bv8tp/Screenshot-20200921-163145-Expo.jpg" 
+     alt="Future Forecast Screen" 
+     width="200px" 
+     style="float:left"/><img src="https://i.ibb.co/Bcdj616/Screenshot-20200921-163151-Expo.jpg" 
+     alt="Future Forecast Screen" 
+     width="200px" 
+     style="float:left"/>
 #### Checkout Page:
 #### My Orders:
 #### Confirmation Message:
@@ -35,21 +48,6 @@
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/><img src="https://i.ibb.co/QYNDBzJ/Screenshot-20200921-163029-Expo.jpg" 
-     alt="Future Forecast Screen" 
-     width="200px" 
-     style="float:left"/><img src="https://i.ibb.co/DfL7h8r/Screenshot-20200921-163037-Expo.jpg" 
-     alt="Future Forecast Screen" 
-     width="200px" 
-     style="float:left"/><img src="https://i.ibb.co/JjPwyTD/Screenshot-20200921-163107-Expo.jpg" 
-     alt="Future Forecast Screen" 
-     width="200px" 
-     style="float:left"/><img src="https://i.ibb.co/j8SJWgV/Screenshot-20200921-163137-Expo.jpg" 
-     alt="Future Forecast Screen" 
-     width="200px" 
-     style="float:left"/><img src="https://i.ibb.co/r3bv8tp/Screenshot-20200921-163145-Expo.jpg" 
-     alt="Future Forecast Screen" 
-     width="200px" 
-     style="float:left"/><img src="https://i.ibb.co/Bcdj616/Screenshot-20200921-163151-Expo.jpg" 
      alt="Future Forecast Screen" 
      width="200px" 
      style="float:left"/><img src="https://i.ibb.co/yfqNXrL/Screenshot-20200921-163211-Expo.jpg" 
