@@ -1,5 +1,6 @@
 import React from 'react'
 
+import {View,Text} from 'react-native'
 import {createAppContainer} from 'react-navigation'
 import {createStackNavigator} from 'react-navigation-stack'
 import {createDrawerNavigator} from 'react-navigation-drawer'
@@ -19,7 +20,6 @@ import PaymentPage from '../Pages/PaymentPage/PaymentPage'
 import WishList from '../Pages/WishList/WishList'
 import AddressForm from '../Pages/AddressForm/AddressForm'
 import HeaderButton from '../Components/HeaderButton'
-
 
 const defaultHeaderConfiguration = {
     headerStyle :{
@@ -46,27 +46,9 @@ const Navigation1 = createStackNavigator({
     navigationOptions:{
         drawerIcon :(drawerConfig) =><Ionicons name='md-home' color={drawerConfig.activeTintColor} size={20} />
     },
-    defaultNavigationOptions : ({navigation})=>{
+    defaultNavigationOptions : ()=>{
         return{
         ...defaultHeaderConfiguration,
-        headerRight : ()=>{
-            return (
-                <HeaderButtons HeaderButtonComponent={HeaderButton}>
-                    <Item
-                        title='Menu' 
-                        iconName='ios-heart'
-                        onPress={()=> navigation.navigate('WishList')}
-                        iconSize={25}                        
-                    />
-                    <Item
-                        title='Menu' 
-                        iconName='md-cart'
-                        onPress={()=>navigation.navigate('CartPage')}
-                        iconSize={25}                        
-                    />
-                </HeaderButtons>
-            )
-        },
     }
 }
 })

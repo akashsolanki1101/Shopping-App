@@ -73,5 +73,16 @@ export const styles = StyleSheet.create({
     buyNowText:{
         fontWeight :'700',
         color : 'white'
+    },
+    cartIconContainer:{
+        flexDirection:'row',
+    },
+    itemCountContainer:{
+        bottom:10,
+        right:10,   
+    },
+    itemCountText:{
+       color:'white',
+       fontWeight:'bold'       
     }
 })

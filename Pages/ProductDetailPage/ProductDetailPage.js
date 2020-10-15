@@ -1,12 +1,13 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 
 import {View,Text,ScrollView, ImageBackground, TouchableOpacity,TouchableNativeFeedback} from 'react-native'
-import {useDispatch} from 'react-redux'
+import {useDispatch,useSelector} from 'react-redux'
 import {Ionicons} from '@expo/vector-icons'
+import {HeaderButtons,Item} from 'react-navigation-header-buttons'
 
+import HeaderButton from '../../Components/HeaderButton'
 import {addToCart} from '../../Store/Actions/CartActions'
 import {toggleWishListItem} from '../../Store/Actions/WishListActions'
-
 import Rating from '../../Components/Rating'
 import {styles} from './Styles'
 import PRODUCTS from '../../Data/Products'
@@ -16,7 +17,14 @@ const ProductDetailPage = props =>{
     const selectedProductId = props.navigation.getParam('productId')
     const isFav = props.navigation.getParam('isFav')
     const selectedProduct = PRODUCTS.find(product => product.productId===selectedProductId)
-    
+    const [isFavourite,setIsFavourite] = useState(isFav)
+    const CartItems = useSelector(state => state.cart.CartItems)
+    const totalItems = CartItems.length
+
+    useEffect(()=>{
+        props.navigation.setParams({totalItems : totalItems})
+    },[totalItems])
+
     return(
         <View style={styles.mainDisplay}>
             <ScrollView style={{backgroundColor : 'white'}}>
@@ -28,8 +36,9 @@ const ProductDetailPage = props =>{
                                     name='ios-heart'
                                     size={25}
                                     onPress={()=>{
+                                        setIsFavourite(!isFavourite)
                                         dispatch(toggleWishListItem(selectedProduct.productId))}}
-                                    color={isFav ? 'red' :'#9CAB93'}
+                                    color={isFavourite ? 'red' :'#9CAB93'}
                                 />
                             </View>
                         </TouchableOpacity>
@@ -67,8 +76,38 @@ const ProductDetailPage = props =>{
     )
 }
 
-ProductDetailPage.navigationOptions = {
-    headerTitle : ''
+ProductDetailPage.navigationOptions = navData=>{
+    const totalItems = navData.navigation.getParam('totalItems')
+    return{
+        headerTitle : '',
+        headerRight : ()=>{
+            return (
+                <HeaderButtons HeaderButtonComponent={HeaderButton}>
+                    <Item
+                        title='Menu' 
+                        iconName='ios-heart'
+                        onPress={()=> navData.navigation.navigate('WishList')}
+                        iconSize={25}                        
+                    />
+                    <View style={styles.cartIconContainer}>
+                        <Item
+                            title='Menu' 
+                            iconName='md-cart'
+                            onPress={()=> navData.navigation.navigate('CartPage')}
+                            iconSize={25}                        
+                        />
+                        {
+                            totalItems!==0?
+                            <View style={styles.itemCountContainer}>
+                                <Text style={styles.itemCountText}>{totalItems}</Text>
+                            </View>
+                            :null
+                        }
+                    </View>
+                </HeaderButtons>
+            )
+        },
+    }
 }
 
 export default ProductDetailPage

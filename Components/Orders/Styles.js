@@ -3,14 +3,14 @@ import {StyleSheet} from 'react-native'
 export const styles = StyleSheet.create({
     container :{
         flex : 1,
-        alignItems : 'center'
+        alignItems : 'center',
     },
     listItem:{
         width : '100%',
         height : 100,
         alignItems : 'center',
         justifyContent : 'space-around',
-        elevation : 2,
+        // elevation : 2,
         marginVertical : 5,
         backgroundColor : 'white',
         flexDirection : 'column',
@@ -47,9 +47,19 @@ export const styles = StyleSheet.create({
         height : 150,
         marginBottom : 1
     },
-    container1:{
-        width : '100%',
+    popUpContainer:{
+       width:'90%',
+       maxHeight:'80%',
+       justifyContent:'center',
+       backgroundColor:'#eee'
+    },
+    orderDetailsContainer:{
+        height : 50,
+        paddingHorizontal:10,
+        justifyContent : 'space-between',
+        alignItems:'center',
+        elevation : 3,
         backgroundColor : 'white',
-        justifyContent : 'center',
+        flexDirection:'row'
     }
 })

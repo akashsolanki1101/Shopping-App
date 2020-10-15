@@ -23,4 +23,15 @@ export const styles = StyleSheet.create({
     clearAllText:{
         color : '#5183D1'
     },
+    cartIconContainer:{
+        flexDirection:'row',
+    },
+    itemCountContainer:{
+        bottom:10,
+        right:10,   
+    },
+    itemCountText:{
+       color:'white',
+       fontWeight:'bold'       
+    }
 })

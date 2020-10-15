@@ -15,7 +15,7 @@ const OrdersPage = props =>{
     {
         return(
             <View style={styles.messageBox}>
-                <Text style={styles.messageText}>No order found!!</Text>
+                <Text style={styles.messageText}>No orders found!!</Text>
             </View>
         )
     }
