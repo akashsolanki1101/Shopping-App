@@ -22,7 +22,7 @@ export const List = props=>{
                             imageUrl={element.item.imageUrl}
                             price={element.item.price}
                             description={element.item.description}
-                            />
+                        />
                     )
                 }}
             />

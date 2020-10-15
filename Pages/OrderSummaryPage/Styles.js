@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native'
 
 export const styles = StyleSheet.create({
     container :{
-        flex : 1
+        flex : 1,
     },
     deliveryAddressBar :{
         width : '100%',
@@ -14,7 +14,6 @@ export const styles = StyleSheet.create({
         alignItems : 'center',
         justifyContent :'space-between',
         padding : 10,
-
     },
     deliveryAddress:{
         width : '70%',
@@ -47,7 +46,7 @@ export const styles = StyleSheet.create({
         justifyContent : 'center',
         borderRadius : 4,
         borderColor:'#A5CAD2',
-        borderWidth:.4
+        borderWidth:.4,
     },
     changeAddressButtonText:{
         color : '#A5CAD2',
@@ -81,5 +80,16 @@ export const styles = StyleSheet.create({
         fontSize : 20,
         fontWeight : '700',
         color : '#FF7A89'
+    },
+    cartIconContainer:{
+        flexDirection:'row',
+    },
+    itemCountContainer:{
+        bottom:10,
+        right:10,   
+    },
+    itemCountText:{
+       color:'white',
+       fontWeight:'bold'       
     }
 })

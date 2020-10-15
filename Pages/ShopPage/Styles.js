@@ -5,5 +5,16 @@ export const styles = StyleSheet.create({
         flex : 1,
         alignItems : 'center',
         backgroundColor : 'white'
+    },
+    cartIconContainer:{
+        flexDirection:'row',
+    },
+    itemCountContainer:{
+        bottom:10,
+        right:10,   
+    },
+    itemCountText:{
+       color:'white',
+       fontWeight:'bold'       
     }
 })

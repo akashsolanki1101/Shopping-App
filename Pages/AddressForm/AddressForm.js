@@ -5,9 +5,10 @@ import {Ionicons} from '@expo/vector-icons'
 import {useDispatch,useSelector} from 'react-redux'
 
 import {styles} from './Styles'
-import {stateList} from '../../Data/States'
 import {addNewAddrress,updateAddress} from '../../Store/Actions/AddressActions'
 import Address from '../../Models/Address'
+import {StateList} from '../../Components/AddressForm/StateList'
+import {Backdrop} from '../../Components/Backdrop/Backdrop'
 
 const AddressForm = props=>{
     const addressBook = useSelector(state=>state.addressBook.addressBook)
@@ -32,9 +33,12 @@ const AddressForm = props=>{
 
     const selectedStateHandler = name=>{
         setState(name)
-        setShowStateList(false) 
+        closeStateDropDown()
     }
 
+    const closeStateDropDown= ()=>{
+        setShowStateList(false)         
+    }
 
     const saveAddressHandler = ()=>{
         const newAddress = new Address(
@@ -91,7 +95,8 @@ const AddressForm = props=>{
                                 Keyboard.dismiss()
                                 setShowStateList(true)
                             }} 
-                            value={state}/>    
+                            value={state}
+                        />
                         <TextInput placeholder='Landmark(optional)' style={styles.textInput} value={landMark} onChangeText={text=>setLandMark(text)}/>    
                     </View>
                     <View style={styles.personalInfo}>
@@ -121,38 +126,26 @@ const AddressForm = props=>{
                         </Text>
                     </TouchableNativeFeedback>
                     </View>
-                    <TouchableNativeFeedback
-                            onPress={selectedAddress? updateAddressHandler:saveAddressHandler}
-                    >
-                        <View style={styles.saveButtonBox}>
+                    <View style={styles.saveButtonBox}>
+                        <TouchableNativeFeedback
+                                onPress={selectedAddress? updateAddressHandler:saveAddressHandler}
+                        >
                             <View style={styles.saveButton}>
-                            <Text style={styles.saveButtonText}>{selectedAddress?'UPDATE':'SAVE'}</Text>
+                                <Text style={styles.saveButtonText}>{selectedAddress?'UPDATE':'SAVE'}</Text>
                             </View>
-                        </View>
-                    </TouchableNativeFeedback>
+                        </TouchableNativeFeedback>
+                    </View>
                 </ScrollView>
             </TouchableWithoutFeedback>
             {
-                showStateList?
-                        <View style={styles.stateList} >
-                            <View style={styles.selectStateTitle}>
-                                <Text style={styles.selectStateTitleText}>Select State</Text>
-                            </View>
-                            <ScrollView>
-                            {
-                                stateList.map(state=>{
-                                    return(
-                                        <TouchableNativeFeedback key={state.id} onPress={()=>selectedStateHandler(state.name)}>
-                                            <View  style={styles.stateListItem}>
-                                                <Text style={styles.stateListItemText}>{state.name}</Text>
-                                            </View>
-                                        </TouchableNativeFeedback>
-                                    )
-                                })
-                            }
-                            </ScrollView>
-                    </View>
-                :null
+                showStateList&&
+                <Backdrop
+                    closeHandler={closeStateDropDown}
+                >
+                    <StateList
+                        selectedStateHandler={selectedStateHandler}
+                    />
+                </Backdrop>
             }
         </View>
     )

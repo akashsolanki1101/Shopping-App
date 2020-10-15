@@ -1,7 +1,8 @@
-import {ADD_NEW_ADDRESS,UPDATE_ADDRESS} from '../Actions/AddressActions'
+import {ADD_NEW_ADDRESS,UPDATE_ADDRESS,SET_SELECTED_ADDRESS_ID} from '../Actions/AddressActions'
 
 const initialState = {
     addressBook : [],
+    selectedAddressId : null
 }
 
 const reducer = (state = initialState , action)=>{
@@ -19,6 +20,12 @@ const reducer = (state = initialState , action)=>{
             return{
                 ...state,
                 addressBook : updatedAddressBook
+            }
+
+        case SET_SELECTED_ADDRESS_ID:
+            return{
+                ...state,
+                selectedAddressId : action.id
             }
 
         default :

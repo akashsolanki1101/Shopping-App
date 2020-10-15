@@ -15,7 +15,7 @@ const PRODUCTS = [
     'u1',
     'Black & Golden',
     'https://cdn.pixabay.com/photo/2014/03/10/17/33/woman-284621_1280.jpg',
-    'Fits your red shirt perfectly. To stand on. Not to wear it.',
+    'Time to give your look, a new look.',
     1999,
     4.8
   ),
@@ -24,7 +24,7 @@ const PRODUCTS = [
     'u2',
     'Long Frok',
     'https://cdn.pixabay.com/photo/2016/11/29/04/23/photographer-1867297_960_720.jpg',
-    'Can also be used for tea!',
+    'Perfect dress for your cute doll.',
     999,
     3.9
   ),
@@ -33,7 +33,7 @@ const PRODUCTS = [
     'u3',
     'The Book - Limited Edition',
     'https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?cs=srgb&dl=blur-blurred-book-pages-46274.jpg&fm=jpg',
-    "What the content is? Why would that matter? It's a limited edition!",
+    "It's a limited edition.",
     299,
     3.7
   ),
@@ -42,7 +42,7 @@ const PRODUCTS = [
     'u3',
     'White Dress',
     'https://cdn.pixabay.com/photo/2016/04/16/19/51/girl-1333640_960_720.jpg',
-    'Awesome hardware, crappy keyboard and a hefty price. Buy now before a new one is released!',
+    'No need to describe it...',
     2299,
     4.5
   ),

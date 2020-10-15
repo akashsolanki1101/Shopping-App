@@ -2,9 +2,11 @@ import React,{useEffect} from 'react'
 
 import {View,Text,ScrollView,TouchableNativeFeedback} from 'react-native'
 import {useSelector} from 'react-redux'
+import {HeaderButtons,Item} from 'react-navigation-header-buttons'
 
 import {List} from '../../Components/Cart/List'
 import {styles} from './Styles'
+import HeaderButton from '../../Components/HeaderButton'
 
 const CartPage = props =>{
     const CartItems = useSelector(state => state.cart.CartItems)
@@ -30,21 +32,21 @@ const CartPage = props =>{
             <ScrollView>
                 <List data={CartItems} navigation={props.navigation}/>
             </ScrollView>
-                <View style={styles.priceInfoBar}>
-                    <Text style={styles.totalPriceText}>₹{totalAmount.toFixed(2)}</Text>
-                    <TouchableNativeFeedback
-                        onPress={()=>props.navigation.navigate({
-                            routeName : 'OrderSummary',
-                            params:{
-                                productList : [...CartItems]
-                            }
-                        })}
-                    >
-                        <View style={styles.placeOrderButton}>
-                            <Text style={styles.placeOrderButtonText}>Place Order</Text>
-                        </View> 
-                    </TouchableNativeFeedback>
-                </View>
+            <View style={styles.priceInfoBar}>
+                <Text style={styles.totalPriceText}>₹{totalAmount.toFixed(2)}</Text>
+                <TouchableNativeFeedback
+                    onPress={()=>props.navigation.navigate({
+                        routeName : 'OrderSummary',
+                        params:{
+                            productList : [...CartItems]
+                        }
+                    })}
+                >
+                    <View style={styles.placeOrderButton}>
+                        <Text style={styles.placeOrderButtonText}>Place Order</Text>
+                    </View> 
+                </TouchableNativeFeedback>
+            </View>
         </View>
     )
 }
@@ -53,7 +55,19 @@ CartPage.navigationOptions = navData=>{
     const totalItems = navData.navigation.getParam('totalItems')
     const title = totalItems!==0 ? `My Cart(${totalItems})` : 'My Cart'
     return{
-        headerTitle : title
+        headerTitle : title,
+        headerRight : ()=>{
+            return (
+                <HeaderButtons HeaderButtonComponent={HeaderButton}>
+                    <Item
+                        title='Menu' 
+                        iconName='ios-heart'
+                        onPress={()=> navData.navigation.navigate('WishList')}
+                        iconSize={25}                        
+                    />
+                </HeaderButtons>
+            )
+        },
     }
 }
 
